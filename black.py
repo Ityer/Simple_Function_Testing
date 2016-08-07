@@ -1,7 +1,8 @@
-def box(x,a):
-	if x == a:1
-		print("Status: Passed")
+def box(n,x,a): # Test Name, Function(variable inputs), What should be returned
+	if x == a:
+		print("%s: Passed"% n)
 		return True
 	else:
-		print("Status: Failed")
+		print("%s: Failed"% n)
 		return False
+
